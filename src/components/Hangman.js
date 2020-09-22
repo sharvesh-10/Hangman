@@ -83,7 +83,6 @@ class Hangman extends Component {
     }
     return (
       <div className="Hangman container">
-        <ParticlesBg type="cobweb" color="#2e20e8"  num={300} bg={true} />
         <h1 className='text-center'>Hangman</h1>
         <div className="float-right"><h2>Wrong Guesses: {this.state.mistake} of {this.props.maxWrong}</h2></div>
         <div className="text-center">
